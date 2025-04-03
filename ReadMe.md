@@ -24,7 +24,7 @@ Then you can see an afl-cov-master folder()
 
 ~~~
 $ tar -xf afl-latest.tgz
-Copy afl-fuzz.c code for llm testing to AFL
+Copy afl-fuzz.c code for Seq2Seq models' testing to AFL
 $ cp afl-fuzz-time-seq2seq.c ./afl-2.52b/afl-fuzz.c
 $ cd afl-2.52b
 $ sudo make
